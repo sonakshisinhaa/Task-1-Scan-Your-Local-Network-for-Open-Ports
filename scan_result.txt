@@ -1,0 +1,33 @@
+Nmap scan report for 192.168.1.1
+Host is up (0.026s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 
+
+Nmap scan report for 192.168.1.2
+Host is up (0.016s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 
+
+Nmap scan report for 192.168.1.3
+Host is up (0.0051s latency).
+All 1000 scanned ports on 192.168.1.3 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 
+
+Nmap scan report for 192.168.1.6
+Host is up (0.00013s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 56.53 seconds
