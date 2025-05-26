@@ -1,4 +1,4 @@
-# Task-1-Scan-Your-Local-Network-for-Open-Ports
+Task-1-Scan-Your-Local-Network-for-Open-Ports
 1. use ipconfig to discover the network
 2. Use nmap -sS 192.168.1.0/24 for port scan
 3. result are displayed 
@@ -23,7 +23,15 @@ Filtered Ports: 22 (SSH), 23 (Telnet)
 Risks:
 
 Telnet is insecure — should be disabled.
-@@ -26,6 +35,14 @@
+HTTP is unencrypted — switch to HTTPS only.
+
+
+2. 192.168.1.2 and 192.168.1.3
+All ports closed.
+
+Likely secure or not running any services.
+
+
 3. 192.168.1.6 (Likely Windows PC or VM Host)
 Open Ports: 135 (MSRPC), 902 (VMware), 912 (Unknown), 3306 (MySQL)
 
